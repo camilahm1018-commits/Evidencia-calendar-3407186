@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/normalice.css">
     <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
 </head>
+
 <body>
     <!--menu responsive flex-->
 
@@ -18,39 +21,44 @@
                 Calendario de eventos
             </div>
             <!--menu hamburguesa_toggle menu-->
-                <button class="main-header__toggle" id="menu-toggle">
-                    <div class="main-header-bar"></div>
-                    <div class="main-header-bar"></div>
-                    <div class="main-header-bar"></div>
-                </button>  
-            <!--menu principal: se muestra en breakpointrs > 500px-->     
-        
-                <div class="main-nav" id="main-nav">
-                    <ul class="main-nav__list">
-                        <li class="main-nav__item"> 
-                            <a href="#" class="main-nav__link" class="material-symbols-outlined">
-                                Buscar
-                            </a>
-                        </li>
-                        <li class="main-nav__item"> 
-                            <a href="#" class="main-nav__link">
-                                Ayuda
-                            </a>
-                        </li>
-                        <li class="main-nav__item"> 
-                            <a href="#" class="main-nav__link">
-                                Configuracion
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-        </div>   
+            <button class="main-header__toggle" id="menu-toggle">
+                <div class="main-header-bar"></div>
+                <div class="main-header-bar"></div>
+                <div class="main-header-bar"></div>
+            </button>
+            <!--menu principal: se muestra en breakpointrs > 500px-->
+
+            <div class="main-nav" id="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <img class="icon" src="/img/icon_buscar.png" alt="">
+                        <a href="#" class="main-nav__link" class="material-symbols-outlined">
+                            Buscar
+                        </a>
+                    </li>
+                    <li class="main-nav__item">
+                        <img class="icon" src="/img/settings.png" alt="">
+                        <a href="#" class="main-nav__link">
+                            Ayuda
+                        </a>
+                    </li>
+                    <li class="main-nav__item">
+                        <img class="icon" src="/img/help.png" alt="">
+                        <a href="#" class="main-nav__link">
+                            Configuracion
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="month">
-            <h2 class="month__name">
-                June
-            </h2>
+            <div class="month__header">
+                <img class="imagen_nombre" src="/img/moño.png" alt="">
+                <h2 class="month__name">June</h2>
+                <img class="imagen_nombre" src="/img/moño.png" alt="">
+            </div>
         </div>
         <div class="days">
             <div class="days__item">Mond</div>
@@ -62,48 +70,97 @@
             <div class="days__item">Sun</div>
         </div>
         <div class="schedule">
-            <div class="schedule__day">1</div>
+            <div class="schedule__day">1
+                <div class="card">
+                    <img class="img_calendar" src="/img/campesino.jpg" alt="">
+                    <h3>Dia del campesino</h3>
+                    <p>Gacias a quienes siembran y cosechan nuestra comida</p>
+                </div>
+            </div>
             <div class="schedule__day">2</div>
             <div class="schedule__day">3</div>
             <div class="schedule__day">4</div>
-            <div class="schedule__day">5 
-                <h3 class="card">Dia del medio ambiente</h3>
+            <div class="schedule__day">5
+                <div class="card">
+                    <img class="img_calendar" src="/img/medio_ambiente.png" alt="">
+                    <h3>Dia del medio ambiente</h3>
+                    <p>Día para cuidar el planeta: aire,agua y naturaleza</p>
+                </div>
             </div>
             <div class="schedule__day">6</div>
             <div class="schedule__day">7</div>
-            <div class="schedule__day">8</div>
+            <div class="schedule__day">8
+                <div class="card">
+                    <img class="img_calendar" src="/img/oceanos.jpg" alt="">
+                    <h3>Dia mundial de los Océanos</h3>
+                    <p>Recordatorio de proteger mares y toda la vida marina</p>
+                </div>
+
+            </div>
             <div class="schedule__day">9</div>
             <div class="schedule__day">10</div>
             <div class="schedule__day">11</div>
             <div class="schedule__day">12</div>
             <div class="schedule__day">13</div>
             <div class="schedule__day">14
-                <h3 class="card">Dia del donante de la sangre</h3>
+                <div class="card">
+                    <img class="img_calendar" src="/img/sangre.avif" alt="">
+                    <h3>Dia del donante de la sangre</h3>
+                    <p>Donar salva vidas.Gracias a los donantes voluntarios</p>
+                </div>
+
             </div>
             <div class="schedule__day">15</div>
             <div class="schedule__day">16</div>
             <div class="schedule__day">17</div>
             <div class="schedule__day">18</div>
             <div class="schedule__day">19</div>
-            <div class="schedule__day">20 
-                <h3 class="card">Cumpleaños de mi hijada</h3>
+            <div class="schedule__day">20
+                <div class="card">
+                    <img class="img_calendar" src="/img/ahijada.jpg" alt="">
+                    <h3>Cumpleaños de mi hijada</h3>
+                    <p>feliz día, princesa.Disruta mucho</p>
+                </div>
             </div>
-    
-            <div class="schedule__day">21 
-                <h3 class="card">Mi Cumpleaños</h3>
+            <div class="schedule__day">21
+                <div class="card">
+                    <img class="img_calendar" src="/img/mi_cumple.jpg" alt="">
+                    <h3>Mi Cumpleaños</h3>
+                    <p>Mi gran día, donde soy muy feliz</p>
+                </div>
             </div>
             <div class="schedule__day">22</div>
             <div class="schedule__day">23</div>
             <div class="schedule__day">24
-                <h3 class="card">Fiesta de san juan </h3>
+                <div class="card">
+                    <img class="img_calendar" src="/img/san_juan.jpg" alt="">
+                    <h3>Fiesta de san juan </h3>
+                    <p>Hogueras, sanjuanera,tamak y lechona</p>
+                </div>
             </div>
-            <div class="schedule__day">25</div>
+            <div class="schedule__day">25
+                <div class="card">
+                    <img class="img_calendar" src="/img/catatumbo.jpg" alt="">
+                    <h3>Dia del catatumbo</h3>
+                    <p>Día para visibilizar la cultura y biodiversidad del Catatumbo</p>
+                </div>
+            </div>
             <div class="schedule__day">26</div>
             <div class="schedule__day">27</div>
             <div class="schedule__day">28</div>
-            <div class="schedule__day">29</div>
+            <div class="schedule__day">29
+                <div class="card">
+                    <img class="img_calendar" src="/img/san_pedro_pablo.jpg" alt="">
+                    <h3>Dia de San pedro y San Pablo</h3>
+                    <p>festivo católico con desfiles, ferias y reinados </p>
+                </div>
+            </div>
             <div class="schedule__day">30
-                <h3 class="card">Cumpleaños tio Gilberto</h3>
+                <div class="card">
+                    <img class="img_calendar" src="/img/tio.jpg" alt="">
+                    <h3>Cumpleaños tio Gilberto</h3>
+                    <p>feliz día tio. Un abrazo</p>
+                </div>
             </div>
         </div>
     </div>
@@ -115,9 +172,10 @@
         const mainNav = document.getElementById('main-nav');
 
         /* añadir el evento click y su funcionamiento*/
-        menuToggle.addEventListener('click' , ()=>{
+        menuToggle.addEventListener('click', () => {
             mainNav.classList.toggle('main-nav__open')
         })
     </script>
 </body>
+
 </html>
